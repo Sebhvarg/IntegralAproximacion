@@ -19,6 +19,7 @@ public class App extends Application {
     private static final String RUTA_ICONO = "/com/espol/cv/grupo7/integralaproximacion/img/LogoCubo.png";
     private final Image ICONO = new Image(getClass().getResourceAsStream(RUTA_ICONO));
     private static final String RUTA_CSS = "/com/espol/cv/grupo7/integralaproximacion/estilos/estilos.css";
+    //h
 
     @Override
     public void start(Stage stage) throws IOException {
