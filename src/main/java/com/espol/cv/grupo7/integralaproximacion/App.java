@@ -26,13 +26,14 @@ public class App extends Application {
         scene = new Scene(loadFXML("primary"));
         configuracionVentana(stage);
         stage.setScene(scene);
-        
         stage.show();
     }
     public void configuracionVentana(Stage stage) throws IOException{
         stage.setMaximized(true);
         stage.setTitle(TITULO);
         stage.getIcons().add(ICONO);
+        stage.setMinWidth(900);
+        stage.setMinHeight(800);
     }
     public void configuración(Stage stage){
         scene.getStylesheets().add(RUTA_CSS);
@@ -48,7 +49,9 @@ public class App extends Application {
     }
 
     public static void main(String[] args) {
+        
         launch();
+        
     }
 
 }

@@ -1,4 +1,5 @@
 com\espol\cv\grupo7\integralaproximacion\PrimaryController.class
+com\espol\cv\grupo7\integralaproximacion\Caja.class
 module-info.class
 com\espol\cv\grupo7\integralaproximacion\App.class
 com\espol\cv\grupo7\integralaproximacion\SecondaryController.class
