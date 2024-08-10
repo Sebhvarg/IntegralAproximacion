@@ -5,4 +5,5 @@ module com.espol.cv.grupo7.integralaproximacion {
 
     opens com.espol.cv.grupo7.integralaproximacion to javafx.fxml, javafx.base;
     exports com.espol.cv.grupo7.integralaproximacion;
+    requires jlatexmath;
 }

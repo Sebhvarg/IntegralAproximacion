@@ -29,7 +29,6 @@ public class App extends Application {
         stage.show();
     }
     public void configuracionVentana(Stage stage) throws IOException{
-        stage.setMaximized(true);
         stage.setTitle(TITULO);
         stage.getIcons().add(ICONO);
         stage.setMinWidth(900);
