@@ -1,5 +1,27 @@
 
+#linea{
+    
+    -fx-background-color: #5b378d;
+    
+}
+
+#btnCalcular{
+     -fx-border-radius: 8px;        /* Bordes redondeados */
+    -fx-border-color: #5b378d;     /* Color del borde */
+    -fx-border-width: 2px;
+    -fx-background-radius: 8px; 
+    -fx-background-color: transparent;
+    -fx-font-size: 16px; 
+    
+}
+#btnCalcular:hover{
+    -fx-border-width: 2px;
+    -fx-background-color: #EEEEEE;
+    
+}
+
 #footer{
-    background-color: #5b378d;
+
    -fx-background-color: #5b378d;
 }
+

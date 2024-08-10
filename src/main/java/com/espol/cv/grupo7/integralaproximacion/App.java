@@ -15,25 +15,16 @@ import javafx.scene.image.Image;
 public class App extends Application {
 
     private static Scene scene;
-    private static final String TITULO = "Aproximación de Integral";
-    private static final String RUTA_ICONO = "/com/espol/cv/grupo7/integralaproximacion/img/LogoCubo.png";
-    private final Image ICONO = new Image(getClass().getResourceAsStream(RUTA_ICONO));
     private static final String RUTA_CSS = "/com/espol/cv/grupo7/integralaproximacion/estilos/estilos.css";
-    //h
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("primary"));
-        configuracionVentana(stage);
+        scene = new Scene(loadFXML("calculoController"));
+        Configuracion.configuracionVentana(stage);
         stage.setScene(scene);
         stage.show();
     }
-    public void configuracionVentana(Stage stage) throws IOException{
-        stage.setTitle(TITULO);
-        stage.getIcons().add(ICONO);
-        stage.setMinWidth(900);
-        stage.setMinHeight(800);
-    }
+    
     public void configuración(Stage stage){
         scene.getStylesheets().add(RUTA_CSS);
     }
@@ -48,9 +39,7 @@ public class App extends Application {
     }
 
     public static void main(String[] args) {
-        
-        launch();
-        
+        launch(); 
     }
 
 }
